@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "LazyLoading:build:production"
+              "buildTarget": "LazyLoading:build:production"
             },
             "development": {
-              "browserTarget": "LazyLoading:build:development"
+              "buildTarget": "LazyLoading:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "LazyLoading:build"
+            "buildTarget": "LazyLoading:build"
           }
         },
         "test": {
